@@ -1,0 +1,72 @@
+.header
+  padding: 24px 0px
+  &__inner
+    display: flex
+    justify-content: space-between
+.brand 
+  display: flex
+  align-items: center
+  position: relative
+  margin: 0
+  padding: 0
+  padding-left: 135px
+  &::before
+    content: url(../img/brand.png)
+    width: 120px
+    height: 106px
+    position: absolute
+    top: -31px
+    left: 0
+    display: block
+    background-color: #fff
+  &-label
+    &__title
+      color: $darkgray
+      font-size: 1.78rem
+      line-height: 1.5rem
+      font-weight: 700
+      text-transform: uppercase
+    &__subtitle
+      font-size: 0.78rem
+      font-weight: 300
+      line-height: 0.96rem
+      color: $red
+      margin-top: 2px
+      margin-left: 3px
+.phone
+  &__number
+    font-size: 1.14rem
+    line-height: 1.5rem
+    color: $darkgray
+    &--big
+      font-size: 1.71rem
+  &__link
+    color: $red
+    font-size: 1rem
+    font-weight: 300
+    line-height: 1rem
+    text-decoration: underline dotted
+    padding-left: 45px
+    margin-top: 5px
+    display: flex
+    align-items: center
+    position: relative
+    &::before
+      content: url(../img/phone.png)
+      width: 15px
+      height: 15px
+      display: block
+      position: absolute
+      left: 0
+      top: -2px
+    &::after
+      content: url(../img/arrow.png)
+      width: 15px
+      height: 15px
+      display: block
+      position: absolute
+      left: 23px
+      top: -2px
+      
+
+
